@@ -44,17 +44,17 @@
     " Latex
     Bundle 'vim-latex/vim-latex'
     " PHP
-    " Bundle 'phpvim'
+    Bundle 'phpvim'
     " Javascript
     Bundle "pangloss/vim-javascript"
     " CoffeScript
-    " Bundle 'vim-coffee-script'
+    Bundle 'vim-coffee-script'
     " Slim/HTML
     Bundle 'slim-template/vim-slim'
     " Jade
     Bundle 'digitaltoad/vim-jade'
-    " Twitter
-    Bundle 'TwitVim'
+    " Pug
+    Bundle 'digitaltoad/vim-pug'
     " Lorem ipsum
     Bundle "loremipsum"
     if iCanHazVundle == 0
