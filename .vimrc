@@ -22,8 +22,6 @@
     Bundle 'tpope/vim-fugitive'
     "Move arond easier lead lead b n
     " Bundle 'Lokaltog/vim-easymotion'
-    "Fuzzy Autocompleter
-    Bundle 'Valloric/YouCompleteMe'
     "UI Colors
     Bundle 'flazz/vim-colorschemes'
     " Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
@@ -109,11 +107,6 @@ syntax on
 "Tex Config
 let g:Tex_CompileRule_pdf = 'xelatex -interaction=nonstopmode $*'
 let g:Tex_MultipleCompileFormats = 'dvi,pdf,ps'
-
-"YouCompleteMe UltiSnip Tab
-let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
-let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
-let g:SuperTabDefaultCompletionType = '<C-n>'
 
 "Better key bindings for UltiSnipsExpandTrigger
 let g:UltiSnipsExpandTrigger = "<tab>"
